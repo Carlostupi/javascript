@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>campanias Blue</h1>
+    <p>bem vindo ao site companias blue</p>
+    digite de qual pais voce é: <input type="text" name="ipais" id="ipais">
+    <input type="button" value="enviar" onclick="verificar()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function verificar() {
+        var peito = window.document.querySelector('input#ipais')
+        var res = window.document.querySelector('div#res')
+        if(peito === ' brasil'){
+            res.innerHTML = '<p>voce é estrangeiro</p>'
+
+        }else {
+            res.innerHTML = '<p>voce é brasileiro</p>' 
+        }
+    }
+    </script>
+</body>
+</html>
