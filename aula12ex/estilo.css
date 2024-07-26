@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgb(97, 97, 175);
+    background-color: rgb(103, 122, 156);
     font:  normal arial;
 
 }
@@ -16,7 +16,7 @@ section{
     padding: 15px;
     width: 550px;
     margin: auto;
-    box-shadow: 5px 5px 10px solid rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
     
 }
 footer {
