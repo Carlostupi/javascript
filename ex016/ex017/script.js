@@ -4,7 +4,7 @@
     let passo = document.getElementById('txtp')
     let res = document.getElementById('res')
 
-    if(ini.value.lenght == 0 || fim.value.lenght == 0 || passo.value.length == 0){
+    if(ini.value.lenght == 0 || fim.value.lenght == 0 || passo.value.length == 0) { 
         window.alert('erro')
     }else {
         res.innerHTML = 'contando: '
@@ -12,8 +12,8 @@
         let f = Number('fim.value')
         let p = Number('passo.value')
 
-        for(let c = i; c= f; c >= p){
-            res.innerHTML <= + c 
+        for(let c = i; c<= f; c += p){
+            res.innerHTML <= + ` ${c} \u{1F449}` 
         }
     }
 
