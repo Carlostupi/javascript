@@ -1,6 +1,7 @@
-function carlinhos(){
-    console.log('o carlinhos bebeu quatro litros de agua, ')
-    console.log('sendo 2 litros agua potavel e 2 litros agua mineral')
+function somar(n1, n2){
+   let resultado = n1 + n2;
+   console.log('O RESULTADO DA SOMA É '+ resultado)
 }
-carlinhos ()
-console.log('claide voce me ama');
+
+
+somar(20, 30)
