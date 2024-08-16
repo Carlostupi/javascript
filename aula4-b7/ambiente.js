@@ -1,7 +1,9 @@
-function somar(n1, n2){
-   let resultado = n1 + n2;
-   console.log('O RESULTADO DA SOMA É '+ resultado)
+function nomeCompleto(nome, sobrenome){
+    let nomecompleto = nome + sobrenome;
+    console.log(nomecompleto)
+
 }
 
-
-somar(20, 30)
+nomeCompleto ('carlos ', 'de souza')
+nomeCompleto ('ronnie ', 'coleman')
+nomeCompleto ('dorian ', 'yates')
