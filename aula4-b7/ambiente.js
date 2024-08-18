@@ -1,9 +1,8 @@
-function nomeCompleto(nome, sobrenome){
-    let nomecompleto = nome + sobrenome;
-    console.log(nomecompleto)
-
+function calcPct(x, y){
+   return (y / x) * 100;
 }
 
-nomeCompleto ('carlos ', 'de souza')
-nomeCompleto ('ronnie ', 'coleman')
-nomeCompleto ('dorian ', 'yates')
+let x = 40;
+let y = 20;
+let pct = calcPct(x, y);
+console.log(`${pct}% de ${x} é ${y}`);
