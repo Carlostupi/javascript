@@ -1,3 +1,9 @@
 <?php
-    echo '<h1> hello word</h1>';
+   $nome = 'carlos';
+
+   $idade = 17;
+
+   $numQuabrado = 18.5;
+
+   $carlinhos = true;
 ?>
